@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Geometricas</title>
+    <link rel="stylesheet" href="css/formas.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Área do Tronco de Pirâmide</h1>
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+        </ul>
+    </header>
+
+    <main>
+            <div class="l"><br>
+                 <p>Um tronco de pirâmide é uma figura tridimensional que resulta da remoção de uma pirâmide menor (geralmente similar à pirâmide maior) de dentro de uma pirâmide maior. A fórmula para calcular a área do tronco de pirâmide é:</p>
+                        <img src="imagem/troncodapiramide__1_-removebg-preview.png" alt="Tronco Da Pirâmide">
+                  <p>Fórmula para calcular a área = <code>&pi; * (R + r) * (R - r + &radic;(h^2 + (R - r)^2))</code></p>
+            </div>
+
+        <form id="calc-form">
+            <div class="l">
+                <label for="raioMaior">Raio Maior (R):</label>
+                <input type="number" id="raioMaior" required>
+            </div>
+
+            <div class="l">
+                <label for="raioMenor">Raio Menor (r):</label>
+                <input type="number" id="raioMenor" required>
+            </div>
+
+            <div class="l">
+                <label for="altura">Altura (h):</label>
+                <input type="number" id="altura" required>
+            </div>
+
+            <div class="l">
+                <button type="button" id="calcular-btn" onclick="calcularArea()">Calcular Área</button>
+            </div>
+
+            <div class="l">
+                <label for="resultado">Área do Tronco de Pirâmide:</label>
+                <!-- <input id="resultado" >-->
+                <span id="resultado" >Exemplo</span>
+            </div>
+        </form>
+    </main>
+    <script src="javascript/js/treonco-piranmide.js"></script>
+    <footer>
+        <p>&copy; 2023 FormasGeométricas.com</p>
+    </footer>
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/OIP.Y6qw6t9WFWsrjyR7NFKy3gHaE8?pid=ImgDet&rs=1');
+            background-size: cover; /* Para ajustar a imagem ao tamanho da tela */
+            background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+        }
+    </style>
+</body>
+</html>

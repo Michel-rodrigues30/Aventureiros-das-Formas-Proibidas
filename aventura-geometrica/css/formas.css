@@ -1,0 +1,50 @@
+* {font-family: Arial, Helvetica, sans-serif;}
+
+h1{
+    display: grid;
+    justify-content: center;
+    background-color: rgb(3, 52, 92);
+    border-radius: 5%;
+    color: antiquewhite;
+}
+.l {
+    font-family: Arial, Helvetica, sans-serif;
+} 
+main{
+    background-image:linear-gradient(to bottom ,#153b3b , rgb(0, 132, 255));
+    text-align: center; text-align: center;
+    width: 210vw;
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+    border-radius: 10px;
+    
+}
+
+.l{
+   justify-content: right;
+    border-radius: 5000px 5px;
+    margin: 5px;
+    color: antiquewhite;
+    
+}
+.formar {
+    margin-bottom: 5px;
+    flex: content;
+    
+    
+}
+ul{
+    display: grid;
+    justify-content: center;
+    background-color: rgb(3, 52, 92);
+    border-radius: 5%;
+}
+.p{
+    color: antiquewhite;
+    margin: 10px;
+} 
+img{
+    width: 200px;
+    height: auto;
+}

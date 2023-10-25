@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Geometricas</title>
+    <link rel="stylesheet" href="css/formas.css">
+</head>
+<body>
+    <header>
+        <h1>Calcular o Quadrado</h1>
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="l"> <br><p>O quadrado é uma figura geométrica com todos os lados de igual comprimento. A fórmula para calcular a área do quadrado é:</p></div>
+        <img src="imagem/quadrado.png" alt="Quadrado" width="250px"> 
+        
+        <div class="l"><p>Fórmula para calcular a área = <code>Lado * Lado</code></p></div>
+    
+        <form id="calc-form">
+            <div class="l">
+                <label for="lado">Lado do Quadrado:</label>
+                <input type="number" id="lado" required>
+            </div>
+    
+            <div class="l">
+                <button type="button" id="calcular-btn" onclick="calcularArea()">Calcular Área</button>
+            </div>
+    
+            <div class="l">
+                <label for="resultado">Área do Quadrado:</label>
+                <span id="resultado">Exemplo</span>
+            </div>
+        </form>
+    </main>
+    
+    <script src="quadrado.html"></script>
+    
+    <footer>
+        <p>&copy; 2023 FormasGeométricas.com</p>
+    </footer>
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/OIP.Y6qw6t9WFWsrjyR7NFKy3gHaE8?pid=ImgDet&rs=1');
+            background-size: cover; /* Para ajustar a imagem ao tamanho da tela */
+            background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+        }
+    </style>
+</body>
+</html>

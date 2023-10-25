@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Geometricas</title>
+    <link rel="stylesheet" href="css/formas.css">
+</head>
+<body>
+    <header>
+        <h1>Calcular o Retangulo</h1>
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <div class="l"><br><p>Um retângulo é uma figura geométrica com quatro lados, onde os lados opostos são iguais e os ângulos internos são retos. A fórmula para calcular a área do retângulo é:</p></div>
+        <img src="imagem/rectangulo-png-2.png" alt="Retângulo"  width="400px">
+       <div class="l"> <p>Fórmula para calcular a área = <code>Comprimento (L) * Largura (W)</code></p></div>
+
+        <form id="calc-form">
+            <div class="l">
+                <label for="comprimento">Comprimento (L):</label>
+                <input type="number" id="comprimento" required>
+            </div>
+
+            <div class="l">
+                <label for="largura">Largura (W):</label>
+                <input type="number" id="largura" required>
+            </div>
+
+            <div class="l">
+                <button type="button" id="calcular-btn" onclick="calcularArea()">Calcular Área</button>
+            </div>
+
+            <div class="l">
+                <label for="resultado">Área do Retângulo:</label>
+                <span id="resultado">Exemplo</span>
+            </div>
+        </form>
+    </main>
+
+    <script src="javascript/js/retangulo.js"></script>
+    <footer>
+        <p>&copy; 2023 FormasGeométricas.com</p>
+    </footer>
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/OIP.Y6qw6t9WFWsrjyR7NFKy3gHaE8?pid=ImgDet&rs=1');
+            background-size: cover; /* Para ajustar a imagem ao tamanho da tela */
+            background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+        }
+    </style>
+</body>
+</html>
